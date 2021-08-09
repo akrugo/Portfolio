@@ -45,7 +45,6 @@ class Contact extends React.Component {
   };
 
   render() {
-    const { t } = this.props;
     return (
       <ContactStyle>
         <motion.h1 variants={titleAnim}>

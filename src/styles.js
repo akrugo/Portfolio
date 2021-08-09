@@ -19,7 +19,13 @@ export const Description = styled(motion.div)`
   flex: 1;
   z-index: 2;
   @media (max-width: 1500px) {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     padding: 0;
+    button {
+      margin-bottom: 1rem;
+    }
   }
 
   .social-media-div {
@@ -30,6 +36,15 @@ export const Description = styled(motion.div)`
     justify-content: center;
     gap: 0.5rem;
     width: 50%;
+  }
+  @media (max-width: 1500px) {
+    .social-media-div {
+      display: flex;
+      align-items: center;
+      justify-content: flex-start;
+      text-align: center;
+      gap: 1rem;
+    }
   }
   @media (max-width: 768px) {
     .social-media-div {
@@ -92,6 +107,7 @@ export const Description = styled(motion.div)`
     box-shadow: 0 5px 15px #1da1f2;
   }
 `;
+
 export const Image = styled(motion.div)`
   flex: 1;
   z-index: 2;
@@ -103,7 +119,10 @@ export const Image = styled(motion.div)`
   }
   @media (max-width: 1500px) {
     img {
-      width: 100%;
+      width: 60%;
+      object-fit: cover;
+      height: 50vh;
+      margin: 2rem 0 2rem 0;
     }
   }
 `;

@@ -153,6 +153,9 @@ const Work = styled(motion.div)`
 
   @media (max-width: 1500px) {
     padding: 2rem 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
   }
 `;
 
@@ -167,6 +170,17 @@ const Movie = styled(motion.div)`
     width: 100%;
     height: 60vh;
     object-fit: cover;
+  }
+  @media (max-width: 1500px) {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    img {
+      width: 100%;
+      height: 60vh;
+      object-fit: cover;
+    }
   }
   .btn {
     margin-top: 2.5rem;

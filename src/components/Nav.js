@@ -74,7 +74,7 @@ const StyledNav = styled.nav`
   }
   @media (max-width: 1500px) {
     flex-direction: column;
-    padding: 2rem 0rem;
+    padding: 1rem 0rem;
     ul {
       padding: 2rem;
       justify-content: space-around;
@@ -82,6 +82,9 @@ const StyledNav = styled.nav`
       li {
         padding: 0;
       }
+    }
+    #logo {
+      display: none;
     }
   }
 `;
@@ -94,7 +97,7 @@ const Line = styled(motion.div)`
   bottom: -80%;
   left: 60%;
   @media (max-width: 1500px) {
-    left: 0%;
+    background: transparent;
   }
 `;
 
