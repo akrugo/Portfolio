@@ -122,7 +122,7 @@ export const Image = styled(motion.div)`
       width: 60%;
       object-fit: cover;
       height: 50vh;
-      margin: 2rem 0 2rem 0;
+      margin: 2rem 0;
     }
   }
 `;
