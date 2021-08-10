@@ -90,7 +90,7 @@ const ContactStyle = styled(motion.div)`
   color: #353535;
   min-height: 90vh;
   padding: 6rem 0;
-  @media (max-width: 1500px) {
+  @media (max-width: 1024px) {
     padding: 2rem;
     font-size: 1rem;
   }

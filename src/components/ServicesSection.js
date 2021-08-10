@@ -49,7 +49,7 @@ const Services = styled(About)`
     width: 100%;
     padding: 2rem 0rem 4rem 0rem;
   }
-  @media (max-width: 1500px) {
+  @media (max-width: 1024px) {
     display: block;
     padding: 2rem 2rem;
   }

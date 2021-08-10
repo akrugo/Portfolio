@@ -65,7 +65,7 @@ const Projects = () => {
               target="_blank"
               rel="noopener noreferrer"
             >
-              En Direct
+              Live
             </a>
           </button>
         </div>
@@ -101,7 +101,7 @@ const Projects = () => {
               target="_blank"
               rel="noopener noreferrer"
             >
-              En Direct
+              Live
             </a>
           </button>
         </div>
@@ -137,7 +137,7 @@ const Projects = () => {
               target="_blank"
               rel="noopener noreferrer"
             >
-              En Direct
+              Live
             </a>
           </button>
         </div>
@@ -151,7 +151,7 @@ const Work = styled(motion.div)`
   overflow: hidden;
   padding: 2rem 10rem;
 
-  @media (max-width: 1500px) {
+  @media (max-width: 1024px) {
     padding: 2rem 2rem;
     display: flex;
     flex-direction: column;
@@ -171,7 +171,7 @@ const Movie = styled(motion.div)`
     height: 60vh;
     object-fit: cover;
   }
-  @media (max-width: 1500px) {
+  @media (max-width: 1024px) {
     display: flex;
     flex-direction: column;
     align-items: center;

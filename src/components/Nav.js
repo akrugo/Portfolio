@@ -72,7 +72,7 @@ const StyledNav = styled.nav`
     font-family: "Lobster", cursive;
     font-weight: lighter;
   }
-  @media (max-width: 1500px) {
+  @media (max-width: 1024px) {
     flex-direction: column;
     padding: 1rem 0rem;
     ul {
@@ -96,7 +96,7 @@ const Line = styled(motion.div)`
   position: absolute;
   bottom: -80%;
   left: 60%;
-  @media (max-width: 1500px) {
+  @media (max-width: 1024px) {
     background: transparent;
   }
 `;

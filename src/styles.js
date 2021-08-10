@@ -9,7 +9,7 @@ export const About = styled(motion.div)`
   justify-content: space-between;
   padding: 3rem 10rem;
   color: white;
-  @media (max-width: 1500px) {
+  @media (max-width: 1024px) {
     display: block;
     padding: 2rem 2rem;
     text-align: center;
@@ -18,7 +18,7 @@ export const About = styled(motion.div)`
 export const Description = styled(motion.div)`
   flex: 1;
   z-index: 2;
-  @media (max-width: 1500px) {
+  @media (max-width: 1024px) {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -37,7 +37,7 @@ export const Description = styled(motion.div)`
     gap: 0.5rem;
     width: 50%;
   }
-  @media (max-width: 1500px) {
+  @media (max-width: 1024px) {
     .social-media-div {
       display: flex;
       align-items: center;
@@ -117,7 +117,7 @@ export const Image = styled(motion.div)`
     height: 80vh;
     object-fit: cover;
   }
-  @media (max-width: 1500px) {
+  @media (max-width: 1024px) {
     img {
       width: 60%;
       object-fit: cover;

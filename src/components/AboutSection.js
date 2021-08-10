@@ -62,8 +62,13 @@ const AboutSection = () => {
         </Link>
 
         <motion.button variants={fade}>
-          <a href="/Hamza-WADIE-Front-end-developer" download>
-            download CV
+          <a
+            href={
+              "https://drive.google.com/drive/folders/15V4_ZbdeJwVsz4IuGQ3zLgFhYvo3psb8?usp=sharing"
+            }
+            target="_blank"
+          >
+            My Resume
           </a>
         </motion.button>
       </Description>
